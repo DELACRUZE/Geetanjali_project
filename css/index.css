@@ -1,0 +1,475 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+html{ 
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.text-dark {
+  color: #000000;
+}
+.bg-dark {
+  background-color: #2d2c2c;
+}
+.bg-yellow {
+  background-color: #dfa700;
+}
+.navtop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+.navtop p {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0;
+  line-height: 1em;
+}
+.navtop img {
+  width: 20px;
+  margin-right: 10px;
+}
+.navtop a {
+  padding: 0%;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 71px;
+}
+.navleft img {
+  width: 120px;
+  padding: 17px 40px 17px 0px;
+  height: 35px;
+}
+.navbuttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navbuttom a {
+  padding: 0px 18px;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 12px;
+  letter-spacing: 1px;
+  height: fit-content;
+}
+.aMontserrat {
+  font-weight: 600;
+}
+.navbuttom a:hover {
+  color: #dfa700;
+}
+.navbuttom a:focus {
+  color: #dfa700;
+}
+.navbuttom a:active {
+  color: rgb(44, 43, 43);
+}
+
+.navright a img {
+  width: 200px;
+  padding: 17px 0 17px 40px;
+}
+.dropdownbox {
+  position: absolute;
+  display: none;
+  top: 120px;
+  left: 410px;
+  width: fit-content;
+  background-color: #000000;
+  border: 1px solid black;
+  padding: 18px 130px 18px 18px;
+}
+.ddm2 {
+  left: 617px;
+  padding-right: 41px;
+}
+
+.dropdownbox a {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.dropdown {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown:hover i {
+  color: #dfa700;
+}
+.dropdown:hover #showdd1 {
+  color: #dfa700;
+}
+.dd2:hover #showdd2 {
+  color: #dfa700;
+}
+.dropdown:hover .dropdownbox {
+  display: block;
+}
+
+/* dropdownicon */
+i {
+  width: 100px;
+}
+
+i {
+  font-size: 10px;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  text-align: center;
+}
+
+/* dropdownicon End */
+.defualtImgBox {
+  height: 573px;
+}
+
+.defualtImg {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://geetanjalisalon.com/wp-content/uploads/2018/07/Screenshot-2022-05-30-at-4.34.57-AM.png");
+}
+.img2defualt {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  background-image: url("https://geetanjalisalon.com/wp-content/uploads/2018/07/Most-trusted-Salon-01.jpg");
+}
+.saleimgbox {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.sectionChild {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 193px 0px 193px;
+}
+.sectionC-right {
+  padding-left: 36px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.sectionsP_heading {
+  font-size: 38px;
+  color: #2d2c2c;
+  margin: 0;
+}
+.yellow-btn-a {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 11px;
+  font-weight: 600;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+  padding: 13px 31px;
+  background-color: #dfa700;
+  border: 1px solid #dfa700;
+  font-size: 12px;
+  transition: color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    background-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    border-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.yellow-btn-a:hover {
+  background-color: transparent;
+  color: #dfa700;
+}
+.storySummary,
+.Sumitsummary {
+  color: #777777;
+  font-weight: 500;
+  line-height: 1.75;
+  font-size: 15px;
+  margin: 0;
+}
+.sectionC-right hr {
+  border: 1px solid #dfa700;
+  background-color: #dfa700;
+  margin-left: 0;
+  width: 21%;
+}
+.sectionChild2 {
+  padding: 60px 193px 0px 193px;
+}
+.storyImage {
+  width: 420px;
+  height: 268px;
+}
+.sumitIsrani {
+  width: 420px;
+  height: 323px;
+}
+.videoContainer {
+  display: flex;
+  justify-content: center;
+}
+.videoContainer video {
+  width: 876px;
+  height: 492;
+  padding: 140px 0px;
+}
+.section2 {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 6px 75px 110px 75px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.section2 img {
+  width: 60px;
+  height: 60px;
+}
+.section2 p {
+  color: #000000;
+  font-weight: 900;
+  font-size: 26px;
+  margin: 6px 0px 0px 0px;
+  font-family: sans-serif;
+}
+.section2span {
+  font-size: 18px;
+}
+.sectionC2-left,
+.sectionC2-middel,
+.sectionC2-right {
+  text-align: center;
+  text-align: center;
+}
+.section3 {
+  width: 100%;
+  height: 660px;
+}
+.main-carousel {
+  width: 100%;
+  height: 100%;
+}
+.carousel-cell {
+  width: 100%;
+  height: 100%;
+}
+.carouselC-a1,
+.carouselC-a2,
+.carouselC-a3 {
+  width: 100%;
+  display: block;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+}
+.carouselC-a3 {
+  background-image: url("../img/Brides-01.jpg");
+}
+.carouselC-a2 {
+  background-image: url("../img/collection-1.jpg");
+}
+.carouselC-a1 {
+  background-image: url("../img/collection-3.jpg");
+}
+.section4 {
+  width: 80%;
+  margin: auto;
+  margin-top: 110px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.section6 hr,
+.section7 hr,
+.section4 hr,
+.section5 hr {
+  border: 1px solid #dfa700;
+  background-color: #dfa700;
+  width: 6%;
+  align-self: center;
+}
+.ytvideoContainer {
+  width: 100%;
+  padding-top: 20px;
+}
+iframe {
+  width: 376px;
+  height: 205px;
+}
+.iframBox {
+  padding-bottom: 41px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section5 {
+  width: 100%;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.brandimgContainer {
+  width: 85%;
+  margin: auto;
+}
+.brandimgBox {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+.brandimgBox img {
+  width: 200px;
+  height: 60px;
+}
+.BR3-img,
+.BR4-img {
+  height: 75px !important;
+}
+.BR8-img {
+  height: 110px !important;
+}
+.BR10-img {
+  width: 110px !important ;
+  height: 117px !important;
+}
+.Empty {
+  padding-bottom: 70px;
+}
+.section6 {
+  width: 100%;
+  height: fit-content;
+}
+.section6C {
+  font-size: 13px;
+  margin: auto;
+  padding: 80px 0;
+  text-align: center;
+}
+.w a {
+  color: #dfa700;
+  text-decoration: none;
+  font-weight: 550;
+}
+.swiper {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+}
+.swiper-button-prev {
+  color: #000000;
+}
+.swiper-button-next {
+  color: #000000;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w {
+  width: 67%;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+}
+.swiper-pagination:active {
+  color: #000000;
+}
+.w p {
+  font-weight: 600;
+  margin-top: 29px;
+}
+.section7 {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 146px 0;
+}
+.GJSTEXT {
+  margin: 0;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.btn-blue {
+  text-decoration: none;
+  padding: 8px 14px;  
+  display: block;
+  margin: 100px auto 0 auto;
+  color: white;
+  font-size: 13px;
+  font-family: monospace;
+  width: fit-content;
+  background-color: #408bd1;
+  border-radius: 3px;
+}
+.btn-blue:hover {
+  background-color: #67a7e4;
+}
+.btn-blue i {
+  font-size: 15px;
+  margin-right: 7px;
+}   
+.blacklabel{
+  width: 100%;
+  padding: 36px 0;
+  background-color: #000000;
+}
+/* footer start */
+footer{
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+  background-color: #444444;
+} 
+footer a{
+  font-weight: 500;
+  color: #E8E8E8;
+  font-size: 13px;
+  padding: 0 14px;
+  text-decoration: none;
+}
+.footerC4{
+  color: #E8E8E8;
+  font-size: 13PX;
+  margin-top: 36px;
+}
+.footerC2 img{
+  margin-top: 8px;
+  width: 46px ;
+  height: 46px;
+}
+.footerC3{
+  margin-top: 26px;
+}
+footer a:hover{
+  color: #dfa700;
+}
